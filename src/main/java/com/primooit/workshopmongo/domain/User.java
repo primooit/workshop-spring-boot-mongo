@@ -14,6 +14,10 @@ public class User implements Serializable {
 	private String name;
 	private String email;
 	
+public User () {
+		
+	}
+	
 	public String getId() {
 		return id;
 	}
@@ -32,9 +36,7 @@ public class User implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public User () {
-		
-	}
+	
 	
 	public User(String id, String name, String email) {
 		super();
